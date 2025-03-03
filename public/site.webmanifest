@@ -1,0 +1,21 @@
+{
+  "name": "SQL Playground",
+  "short_name": "SQL Play",
+  "description": "Interactive SQL learning environment",
+  "start_url": "https://ezy-mysql.vercel.app/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#14b8a6",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+} 
