@@ -671,12 +671,12 @@ const SQLPlayground = () => {
 
           {/* Query History */}
           {results.length > 0 && (
-            <div className="bg-white rounded-xl p-6  border border-slate-100">
+            <div className="bg-white rounded-xl p-6  border border-slate-100 ">
               <h4 className="text-sm font-semibold text-slate-600 mb-4 flex items-center gap-2">
                 <Eye className="w-4 h-4" />
                 Query History
               </h4>
-              <div className="space-y-3 max-h-[400px] overflow-y-auto pr-2">
+              <div className="space-y-3 max-h-[400px] overflow-y-auto pr-2 mb-20">
                 {results.map((result, index) => (
                   <div 
                     key={index} 
